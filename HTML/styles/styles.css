@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  border: 1px double black;
+}
+table td {
+  border: 1px double black;
+  height: 50px;
+}
+
+header,
+footer,
+nav,
+main,
+article,
+aside,
+section {
+  border: 1px solid black;
+  padding: 10px;
+}

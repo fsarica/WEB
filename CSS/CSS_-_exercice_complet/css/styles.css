@@ -1,0 +1,103 @@
+body{
+    width: 980px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    width: 50%;
+    margin: 10px 20px;
+    display: inline-block;
+    color: blue;
+}
+
+#logo{
+    width: 150px;
+    opacity: 0.5;
+    border-bottom-left-radius: 75px;
+    transform: rotate(45deg)
+}
+
+#logo:hover{
+    opacity: 1;
+}
+
+p{
+    color: blue;
+    padding: 10px;
+    border: 4px dotted black;
+}
+
+p#param{
+    color:red;
+}
+
+.color{
+    color:#ABC;
+}
+
+.color:hover{
+    color:#AEEE00;
+}
+
+main, aside{
+    display: inline-block;
+}
+
+aside{
+    width: 25%;
+    vertical-align: top;
+    background-image: url(../images/smiley.png) no-repeat top right;
+}
+
+main{
+    background-color: lightcyan;
+    width: 74%;
+}
+
+main p:first-child{
+    text-indent: 20px;
+}
+
+article{
+    font-family: arial;
+    display: inline-block;
+    border: 10px solid navy;
+    margin: 9px;
+    width: 27%;
+}
+
+article p {
+    border: none;
+    color: black;
+}
+
+article > img {
+    width: 100%;
+}
+
+article h3{
+    text-transform: uppercase;
+    font-family: Verdana;
+}
+
+h3:after{
+    content: url(../images/smiley.png)
+}
+
+a{
+    text-decoration: none;
+    color: #4C1B1B;
+}
+
+a:visited{
+    color:#FF358B;
+}
+
+a[target='_blank']:after{
+    content: '->'   
+}
+
+li{
+    list-style-type: upper-roman;
+}

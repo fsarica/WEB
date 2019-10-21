@@ -1,0 +1,16 @@
+body{
+    width: 80%;
+    max-width: 900px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.fixes{
+    width: 720px;
+    border: 1px solid black;
+}
+
+.variables{
+    width: 80%;
+    border: 1px solid black;
+}

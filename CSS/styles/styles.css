@@ -1,0 +1,51 @@
+body {
+  color: grey;
+}
+
+h2 {
+  color: blue;
+}
+
+#special {
+  color: red;
+}
+
+.top {
+  color: green;
+}
+
+.box > p {
+  color: red;
+}
+
+h3 + p {
+  color: orange;
+}
+
+h3 ~ p {
+  color: purple;
+}
+
+a:link {
+  color: brown;
+}
+
+a:visited {
+  color: aqua;
+}
+
+h3:hover {
+  border: 1px solid black;
+}
+
+a[title] {
+  color: gold;
+}
+
+/* a:after {
+  content: '->';
+} */
+
+.fleche:after {
+  content: '->';
+}

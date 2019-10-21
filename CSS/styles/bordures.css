@@ -1,0 +1,16 @@
+#border{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+    border-top: 5px solid green;
+    border-bottom: 1px dotted red;
+    border-bottom-right-radius: 50%;
+}
+
+#border:hover {
+    border-image-source: url("../images/preferences-color.png");
+    border-image-slice : 10%;
+    border-image-width : 50px;
+    border-image-outset : 5px;
+}

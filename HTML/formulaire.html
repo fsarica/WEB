@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ma Page</title>
+  </head>
+  <body>
+    <form action="#" method="post" name="myForm">
+      <h1>Mon premier formulaire</h1>
+      <fieldset>
+        <legend>Infos personnelles</legend>
+        <p>
+          <label for="inputHidden">Ici un champ caché</label>
+          <input type="hidden" id="inputHidden" />
+        </p>
+        <p>
+          <label>Civilité</label>
+          <input type="radio" name="test" value="Mlle" />Mlle
+          <input type="radio" name="test" value="Mme" />Mme
+          <input type="radio" name="test" value="M" />M
+        </p>
+        <p>
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" />
+          <label for="prenom">Prénom</label>
+          <input type="text" id="prenom" />
+        </p>
+        <p>
+          <label for="adresse">Adresse</label>
+          <textarea name="adresse" id="adresse" cols="20" rows="2"></textarea>
+          <select name="ville" id="ville">
+            <option value="1">68000 COLMAR</option>
+          </select>
+        </p>
+        <p>
+          <label for="courriel">Courriel</label>
+          <input type="email" />
+        </p>
+        <p>
+          <label for="num">Numéro de téléphone</label>
+          <input type="tel" id="num" />
+        </p>
+        <p>
+          <label for="foyer">Nombre de personnes qui compose votre foyer</label>
+          <input type="number" id="foyer" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Mots de passe</legend>
+        <p>
+          <label for="mdp">Mot de passe</label>
+          <input type="password" id="mdp" />
+          <label for="mdpConfirm">Confirmation du mot de passe</label>
+          <input type="password" id="mdpConfirm" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Préférences</legend>
+        <p>
+          <label>Vos animaux préférés</label>
+          <input type="checkbox" name="choixanimal[]" value="0" />Chat
+          <input type="checkbox" name="choixanimal[]" value="1" />Chien
+          <input type="checkbox" name="choixanimal[]" value="2" />Oiseau
+          <input type="checkbox" name="choixanimal[]" value="3" />Rat
+          <input type="checkbox" name="choixanimal[]" value="4" />Autres
+        </p>
+        <p>
+          <label for="couleur">Votre couleur préférée</label>
+          <input type="color" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Rendez-vous</legend>
+        <p>
+          <label for="date">Date et heure du rdv</label>
+          <input type="date" id="date" />
+          <input type="time" id="time" />
+        </p>
+        <p>
+          <label for="file">Document à envoyer</label>
+          <input type="file" />
+        </p>
+      </fieldset>
+      <input type="submit" value="Valider" />
+      <input type="reset" value="Réinitialiser" />
+    </form>
+  </body>
+</html>

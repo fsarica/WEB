@@ -1,0 +1,5 @@
+.degrade{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(red, orange, yellow, green, blue, purple)
+}

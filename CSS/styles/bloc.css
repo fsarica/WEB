@@ -1,0 +1,11 @@
+.container{
+    background-color: grey;
+    margin: auto;
+    width: 80%;
+    padding: 50px 200px 100px 150px;
+}
+
+.bloc{
+    background-color: yellow;
+    padding: 150px 50px 150px 75px;
+}

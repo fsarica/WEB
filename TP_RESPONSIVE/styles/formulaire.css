@@ -1,0 +1,70 @@
+/**** Formulaire de contact ****/
+/* image du captcha */
+img#captcha{
+	width:100px;
+}
+
+#map{
+	display:none;
+}
+
+form p{
+	margin : 12px 0;
+	padding-left:20px;
+}
+
+form label{
+	width:90%;
+	display :inline-block;
+}
+form input[type="text"], form input[type="email"], form input[type="tel"]{
+	width:80%;
+}
+
+form textarea{
+	display : block;	
+	width:80%;
+	height:100px;
+}
+
+/***** Responsive *****/
+@media screen and (min-width:768px){
+	/*** FORMULAIRE DE CONTACT ***/
+	form label{
+		width:250px;
+	}
+	form textarea{
+		height:100px;
+	}
+	form input[type="text"], form input[type="email"], form input[type="tel"]{
+		width:50%;
+	}
+
+	form #rgpd + label{
+		width:200px;
+	}	
+}
+
+@media screen and (min-width:900px){
+	/*** FORMULAIRE DE CONTACT ***/
+	form[name="contactForm"], #map{
+		display:inline-block;
+		width:47%;
+	}
+
+	#map{
+		padding:20px;
+		vertical-align:top;
+	}
+	form label{
+		width:150px;
+	}
+	form textarea{
+		height:100px;
+	}
+
+	form #rgpd + label{
+		width:300px;
+	}
+	
+}
