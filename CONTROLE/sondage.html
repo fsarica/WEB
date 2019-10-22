@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>SONDAGE</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/sondage.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/survey.png" alt="" />
+      <h1>Mon petit site de Sondage</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li class="active"><a href="sondage.html">Sondage</a></li>
+          <li><a href="apropos.html">A propos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Sondage</h2>
+      <p>Description du sondage</p>
+      <form action="#" method="post" name="myForm">
+        <fieldset>
+          <legend>Quel est votre niveau en HTML?</legend>
+          <input type="radio" name="test" value="Très bon" />Très bon
+          <input type="radio" name="test" value="Bon" />Bon
+          <input type="radio" name="test" value="Moyen" />Moyen
+          <input type="radio" name="test" value="Médiocre" />Médiocre
+          <input type="radio" name="test" value="En quoi?" />En quoi?
+        </fieldset>
+        <input class="envoyer" type="submit" value="Envoyer" />
+      </form>
+      <h2>Résultats</h2>
+      <p>Niveau HTML</p>
+      <p>Nombre de participants:<span class="nb-participants">71</span></p>
+      <div class="progress-container">
+        <div class="div-progress">
+          <p>Très bon</p>
+          <progress value="25" max="100"></progress>
+        </div>
+        <div class="div-progress">
+          <p>Bon</p>
+          <progress value="30" max="100"></progress>
+        </div>
+        <div class="div-progress">
+          <p>Moyen</p>
+          <progress value="35" max="100"></progress>
+        </div>
+        <div class="div-progress">
+          <p>Médiocre</p>
+          <progress value="10" max="100"></progress>
+        </div>
+        <div class="div-progress">
+          <p>En quoi?</p>
+          <progress value="5" max="100"></progress>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright - 2019 - <a href="index.html">Mentions légales</a></p>
+    </footer>
+  </body>
+</html>

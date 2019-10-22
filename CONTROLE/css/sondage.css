@@ -1,0 +1,50 @@
+fieldset{
+    border: 1px dashed #34b725;
+}
+
+fieldset legend{
+    color: #34b725;
+}
+
+fieldset input{
+    margin: 20px;
+}
+
+form{
+    margin: 10px
+}
+
+.envoyer{
+    color: white;
+    background-color: #34b725;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+}
+
+.nb-participants{
+    color: #34b725;
+}
+
+.progress-container{
+    margin: 30px 10px;
+
+}
+
+.div-progress{
+    width: 100%;
+    display: block;
+}
+
+.div-progress p{
+    margin: 0;
+    width: 25%;
+    display: inline-block;
+}
+
+.div-progress progress{
+    width: 74%;
+    display: inline-block;
+    background-color: #34b725;
+}
